@@ -4,13 +4,22 @@ PawSense is a smart IoT-enabled mobile application designed to help pet owners m
 
 Technologies Used
 Mobile Framework: Flutter (Dart)
-IoT Hardware:
+
+IoT Hardware: 
+
 Machine Learning: 
+
 Cloud Computing: 
-Communication Protocol: MQTT / WebSockets
+
+Communication Protocol: 
+
 Features
 Real-time Sound Analysis: Machine Learning model classifies pet vocalizations to detect distress.
+
 Automated Care: Remotely dispense food and water via the mobile app.
+
 Instant Notifications: Push alerts triggered by unusual pet activity or environmental changes.
+
 Live Dashboard: Real-time visualization of pet activity levels and dispenser status.
+
 User Authentication: Secure login for individual pet owners.
