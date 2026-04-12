@@ -3,7 +3,7 @@ Project Title: PawSense: IoT-Enabled Pet Care Monitoring System with Sound Detec
 
 Description: This project proposes an integrated IoT and Mobile solution designed to streamline remote pet monitoring and care. By combining Machine Learning-driven sound classification with automated hardware, the system ensures proactive pet wellbeing. The application detects unusual behavior, such as distress noises or excessive barking, and allows owners to remotely dispense food and water, effectively bridging the gap between pets and their owners while they are away from home.
 
-Technologies Used: Flutter, Dart, IoT (ESP32/Raspberry Pi), Cloud Computing (Firebase).
+Technologies Used: Flutter, Dart, IoT (ESP32), Cloud Computing (Firebase).
 
 Features:
 Acoustic Distress Detection: Real-time ML sound analysis to identify barking, whimpering, or distress signals.
