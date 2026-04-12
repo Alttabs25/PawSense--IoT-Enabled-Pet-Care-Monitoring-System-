@@ -1,23 +1,40 @@
-PawSense: Smart IoT-Enabled Pet Care System 
-Project Title: PawSense: IoT-Enabled Pet Care Monitoring System with Sound Detection and Mobile-Based Feeding
+# 🐾 PawSense: Smart IoT Pet Care
+**Bridging the gap between pets and owners through intelligent monitoring.**
 
-Description: This project proposes an integrated IoT and Mobile solution designed to streamline remote pet monitoring and care. By combining Machine Learning-driven sound classification with automated hardware, the system ensures proactive pet wellbeing. The application detects unusual behavior, such as distress noises or excessive barking, and allows owners to remotely dispense food and water, effectively bridging the gap between pets and their owners while they are away from home.
+[![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=flat&logo=Flutter&logoColor=white)](https://flutter.dev)
+[![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=flat&logo=Firebase&logoColor=white)](https://firebase.google.com)
+[![Hardware](https://img.shields.io/badge/Hardware-ESP32-E7352C.svg?style=flat)](https://www.espressif.com/)
 
-Technologies Used: Flutter, Dart, IoT (ESP32), Cloud Computing (Firebase).
+## 📖 Overview
+**PawSense** is an integrated IoT and mobile solution designed to streamline remote pet monitoring. By combining **Machine Learning-driven sound classification** with automated hardware, the system ensures proactive pet wellbeing. 
 
-Features:
-Acoustic Distress Detection: Real-time ML sound analysis to identify barking, whimpering, or distress signals.
+Whether you're at the office or traveling, PawSense listens for distress and provides the tools to care for your pet from anywhere in the world.
 
-Remote Resource Management: Manually or automatically dispense food and water through integrated IoT servos.
+---
 
-Instant Push Notifications: Owners receive immediate mobile alerts whenever unusual activity or distress is detected.
+## ✨ Key Features
+* **🔊 Acoustic Distress Detection:** Real-time ML sound analysis to identify barking, whimpering, or specific distress signals.
+* **🥣 Remote Resource Management:** Manually trigger or schedule food and water dispensing via integrated **ESP32-controlled servos**.
+* **🔔 Instant Push Notifications:** Receive immediate mobile alerts the moment unusual activity or distress is detected.
+* **📊 Activity Dashboard:** A centralized interface to monitor environmental factors, hydration levels, and feeding history.
+* **🔐 Secure Ecosystem:** Private user accounts via Firebase Authentication to ensure only you control your home’s IoT devices.
 
-Real-time Activity Dashboard: A centralized interface to monitor pet environment, hydration levels, and feeding history.
+---
 
-Secure Authentication: Individual user accounts to ensure private and secure access to your home’s IoT devices.
+## 🛠️ Tech Stack
+| Component | Technology | Use Case |
+| :--- | :--- | :--- |
+| **Mobile App** | Flutter & Dart | Cross-platform UI/UX |
+| **Microcontroller** | ESP32 | Hardware control & Sensor data |
+| **Backend/DB** | Firebase | Real-time DB & Cloud Messaging |
+| **ML Engine** | TensorFlow Lite | Edge-based sound classification |
 
-Installation Instructions: Instructions on how to clone and run the app locally (for others or future you).
+---
 
-Setup: Instructions for setting up IoT devices and cloud services.
+## 🚀 Getting Started
 
-Contributors: rcpinca.it@tip.edu.ph
+### 📱 Mobile App Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/your-username/pawsense.git](https://github.com/your-username/pawsense.git)
+   cd pawsense
